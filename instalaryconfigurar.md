@@ -65,3 +65,6 @@ Si ha seguido todos los pasos correctamente, obtendrá un ÉXITO mensaje cuando 
 ```bash
 ansible -m ping Client
 ```
+
+![image](https://user-images.githubusercontent.com/91255763/222121493-8ff5748b-d680-4647-8cce-5e8d1a8f7a61.png)
+
