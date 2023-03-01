@@ -61,4 +61,7 @@ node1 ansible_ssh_host=<usuario>@<ip>
 
 ![image](https://user-images.githubusercontent.com/91255763/222120863-8427ffc9-8640-4bf9-9aa7-9d408144b908.png)
 
-  
+Si ha seguido todos los pasos correctamente, obtendrá un ÉXITO mensaje cuando ejecuta el siguiente comando en el servidor ansible.
+```bash
+ansible -m ping Client
+```
