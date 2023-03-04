@@ -13,4 +13,9 @@ nano vars/default.yml
 ```
 Este archivo contiene algunas variables que requieren su atención
 ![image](https://user-images.githubusercontent.com/91255763/222919439-92923216-73f1-4d45-80cc-cd4866848848.png)
-De este documento cambiare el nombre de mysql_user de sammy a ansibleslave
+
+De este documento cambiare el nombre de mysql_user de sammy a ansibleslave, las contraseñas y el nombre de los documentos de apache2, después de esditarlo guardamos y escribimos el siguiente comando:
+
+```bash 
+$ sudo sudo ansible-playbook playbook.yml -u ansibleslave --ask-become-pass
+```
