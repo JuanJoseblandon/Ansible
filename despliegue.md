@@ -19,3 +19,16 @@ De este documento cambiare el nombre de mysql_user de sammy a ansibleslave, las 
 ```bash 
 $ sudo sudo ansible-playbook playbook.yml -u ansibleslave --ask-become-pass
 ```
+pedira la contraseña de la máquina cliente y saldra lo siguiente
+
+![image](https://user-images.githubusercontent.com/91255763/222922477-2aff3680-78e5-4e4a-9c9f-416fadf3a9f8.png)
+ 
+ Una vez hecho esto dbemos ier a la maquina cliente e introducir en el bavegador la ip del cliente de la siguiente forma
+  ```
+  http://ip_host
+  ```
+  
+  Al hacerlo nos mostrara la siguiente página
+  ![image](https://user-images.githubusercontent.com/91255763/222922620-545653ef-5c26-4ffb-938d-f5753aab3d67.png)
+
+ 
